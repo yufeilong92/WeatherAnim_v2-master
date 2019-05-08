@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/old"
+            android:title="v1旧版" />
+
+        <item
+            android:id="@+id/sun"
+            android:title="晴天" />
+
+        <item
+            android:id="@+id/cloudy"
+            android:title="多云&amp;阴天" />
+
+
+        <item
+            android:id="@+id/rain"
+            android:title="雨" />
+
+
+        <item
+            android:id="@+id/snow"
+            android:title="雪" />
+
+
+        <item
+            android:id="@+id/fog"
+            android:title="雾&amp;霾&amp;沙尘暴" />
+    </group>
+</menu>
